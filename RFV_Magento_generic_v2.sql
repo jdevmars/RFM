@@ -1,6 +1,6 @@
 /*
 
-RFM for Magento based on Order table
+RFM for Magento based on Order table  
 
 */
 
