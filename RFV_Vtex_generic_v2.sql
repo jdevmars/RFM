@@ -219,4 +219,3 @@ HAVING
   DATEDIFF(DAY, MAX(O.CreationDate), GETDATE()) <= @diasAtras
   AND COUNT(O.OrderId) >= @quantidadePedidos
   AND SUM(TRY_CAST(O.TotalPrice AS DECIMAL) + TRY_CAST(O.TotalShipping AS DECIMAL)) >= @valor
-
